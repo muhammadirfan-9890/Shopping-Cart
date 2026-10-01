@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Website heading -->
+    <header>
+        <h1>My Shopping Cart</h1>
+        <p>Cart Items: <span id="cartCount">0</span></p>
+    </header>
+
+    <div class="container">
+
+        <!-- Products -->
+        <div class="products-area">
+            <h2>Products</h2>
+            <div id="productList" class="product-list"></div>
+        </div>
+
+        <!-- Cart -->
+        <div class="cart-area">
+            <h2>My Cart</h2>
+
+            <div id="cartList">
+                <p>Your cart is empty.</p>
+            </div>
+
+            <hr>
+
+            <h3>Total: $<span id="total">0</span></h3>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
